@@ -12,6 +12,7 @@ Algoritmo escritor
 	Mientras Que retorno = falso
 	vector(frase)
 FinAlgoritmo
+
 ///////////////////////////////////////////////////////////////////verifica si la frase es demasiado extensa.
 funcion retorno <- long(frase)
 	definir retorno Como Logico
@@ -23,6 +24,7 @@ funcion retorno <- long(frase)
 		retorno = verdadero
 	FinSi
 FinSubProceso
+
 //////////////////////////////////////////////////////////////// convierte la frase en una cadena y carga una matriz con las letras de la cadena.
 subproceso vector(frase)
 	definir i como entero
@@ -34,6 +36,7 @@ subproceso vector(frase)
 	FinPara
 	intercalar(letras)
 FinSubProceso
+
 ///////////////////////////////////////////////////////////////verifica si la posición está vacia y reemplaza por un caracter dado.
 subproceso intercalar(letras)
 	definir i , pos como entero
@@ -49,6 +52,7 @@ subproceso intercalar(letras)
 		Escribir "Espacio ocupado por " letras(pos-1) "."
 	FinSi
 FinSubProceso
-//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////FIN///////////////////////////////////////
 
 	
